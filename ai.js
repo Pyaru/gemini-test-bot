@@ -10,7 +10,7 @@ if (!API_KEY) {
 }
 
 const genAI = new GoogleGenerativeAI(API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+const model = genAI.getGenerativeModel({ model: "Gemini 2.5 Flash" });
 
 // ১. মেইন AI রিপ্লাই ফাংশন
 async function getGeminiReply(userMessage) {
